@@ -14,4 +14,4 @@ class HelloApiView(APIView):
             'gives the most control over your application',
             'is mapped manually to urls'
         ]
-        return Response({'message': "hello",'an_apiview':an_apiview})
+        return Response({'message': "hello", 'an_apiview': an_apiview})
